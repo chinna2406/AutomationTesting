@@ -8,9 +8,11 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
+import org.testng.annotations.Test;
 
 public class RemoteWebdriver {
-	public static void main(String a[]) throws MalformedURLException {
+	@Test
+	public  void main(String a[]) throws MalformedURLException {
 		DesiredCapabilities dc=new DesiredCapabilities();
 		//DesiredCapabilities capabilities=new DesiredCapabilities().chrome();
 		dc.setBrowserName("chrome");	
