@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Suite">
+  <test name="Test">
+  <listeners>
+  <listener class-name="retryfailedScript.RetryImplements"></listener>
+  </listeners>
+    <classes>
+      <class name="TestScript.TestCaseOne"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
