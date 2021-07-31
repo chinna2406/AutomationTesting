@@ -17,7 +17,7 @@ public class RemoteWebdriver {
 		//DesiredCapabilities capabilities=new DesiredCapabilities().chrome();
 		dc.setBrowserName("chrome");	
 		//dc.setPlatform(Platform.WIN10);
-		URL url=new URL("http://192.168.225.227:4444/wd/hub");
+		URL url=new URL("http://localhost:4444/wd/hub");
 		WebDriver driver=new RemoteWebDriver(url,dc);
 		//System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+"/Lib/chromedriver.exe");
 		//WebDriver driver=new ChromeDriver();
