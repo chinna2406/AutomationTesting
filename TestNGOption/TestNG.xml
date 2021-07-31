@@ -5,7 +5,7 @@
   <listener class-name="retryfailedScript.RetryImplements"></listener>
   </listeners>
     <classes>
-      <class name="TestScript.TestCaseOne"/>
+      <class name="TestScript.RemoteWebdriver"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
