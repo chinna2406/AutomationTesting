@@ -11,8 +11,8 @@ import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.annotations.Test;
 
 public class RemoteWebdriver {
-	@Test
-	public  void main(String a[]) throws MalformedURLException {
+@Test
+	public  void hook() throws MalformedURLException {
 		DesiredCapabilities dc=new DesiredCapabilities();
 		//DesiredCapabilities capabilities=new DesiredCapabilities().chrome();
 		dc.setBrowserName("chrome");	
