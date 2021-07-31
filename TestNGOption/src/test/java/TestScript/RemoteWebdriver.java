@@ -12,7 +12,7 @@ import org.testng.annotations.Test;
 
 public class RemoteWebdriver {
 @Test
-	public  void hook() throws MalformedURLException {
+	public  void hook() throws MalformedURLException, InterruptedException {
 		DesiredCapabilities dc=new DesiredCapabilities();
 		//DesiredCapabilities capabilities=new DesiredCapabilities().chrome();
 		dc.setBrowserName("chrome");	
@@ -22,7 +22,9 @@ public class RemoteWebdriver {
 		//System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+"/Lib/chromedriver.exe");
 		//WebDriver driver=new ChromeDriver();
 		System.out.println();
-		driver.get("https://www.google.com/");	
+		driver.get("https://www.google.com/");
+		System.out.println("Remotedrivere launched successfully.....!!!");
+		Thread.sleep(5000);
 		driver.quit();
 		
 	}
